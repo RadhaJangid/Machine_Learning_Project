@@ -16,16 +16,50 @@ conda create -p radhe python==3.7 -y
 ## for activating virtual environment
 conda activate radhe/
 
+or
+
+conda activate radhe
+
 '''
 pip install -r requirements.txt
 
 
 '''
+To add files git
+'''
+git add .
 
+or
 
+git add filename
 
 '''
 
+To ignore file/folder from git we can write name of file / folder in git.gitignore file
+To check git status
+'''
+git status
+'''
+To check all version maintained by git
+'''
+git log
+'''
+
+To create version/commit all changes by git 
+'''
+git commit -m 'message'
+eg- git commit -m "simple flask app"
+'''
+
+To send changes/version to github
+'''
+git push origin main
+'''
+
+To check remote url
+'''
+git remote -v
+'''
 
 
 
