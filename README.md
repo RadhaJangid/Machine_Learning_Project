@@ -71,7 +71,7 @@ git remote -v
 
 ## To setup CI/CD pipeline in heroku we need 3 information
    1.HEROKU_EMAIL = jangidradha1299@gamil.com
-   2.HEROKU_API_KEY = <>
+   2.HEROKU_API_KEY = 8a042077-c20d-4ea7-a084-0642d6ca95a5
    3.HEROKU_APP_NAME = mlregreapp
 
 ## Build docker image
@@ -102,6 +102,12 @@ docker ps
 ## To stop docker cointainer 
 '''
 docker stop <cointainer_id>
+'''
+
+
+'''
+python setup.py install
+
 '''
 
 
